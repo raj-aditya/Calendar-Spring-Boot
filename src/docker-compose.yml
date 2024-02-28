@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  db:
+    image: postgres:alphine
+    ports: 
+      - "5432:5432"
+    environmnet:
+      POSTGRES-USERNAME: postres
+      POSTGRES_PASSWORD: password

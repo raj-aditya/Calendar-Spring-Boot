@@ -1,0 +1,12 @@
+Post http://localhost:8080/api/content
+Content-Type: application/json
+
+{
+"id": 2,
+"desc": "My second post",
+"status": "IDEA",
+"contentType": "ARTICLE",
+"dataCreated": null,
+"dataUpdated": null,
+"url": ""
+}
